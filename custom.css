@@ -1,0 +1,57 @@
+html {
+	height: 100%;
+}
+
+body {
+	background: url("https://images.unsplash.com/photo-1440500122534-703c6966f83d?dpr=1&auto=format&fit=crop&w=1500&h=NaN&q=80&cs=tinysrgb&crop=");
+	background-size: cover;
+	background-position: center;
+	font-family: Lato;
+	color: green;
+}
+
+#content {
+	text-align: center;
+	padding-top: 25%;
+	text-shadow: 0px 4px 3px rgba(51,153,52,0.4),
+							0px 8px 13px rgba(51,153,52,0.1),
+							0px 18px 23px rgba(51,153,52,0.1);
+}
+
+.navbar-default .navbar-brand,
+.navbar-default .navbar-nav > li > a {
+	color: green;
+}
+
+.navbar-default .navbar-nav > .active > a {
+	color: green;
+	font-weight: 700;
+}
+
+/*.btn-group-lg > .btn, .btn-lg:hover, */
+.btn-group-lg > .btn, .btn-lg{
+	color: green;
+}
+
+.navbar-default .navbar-toggle {
+	border-color: green;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+	background: green;
+}
+
+
+h1 {
+	font-weight: 700;
+	font-size: 5em;
+}
+
+hr {
+	border-top: 1px solid green;
+	width: 260px;
+	border-bottom: 1px solid rgba(0,0,0,0.2);
+	/* if color white(defult) suppose to give shadow
+	border-top: 1px solid #f8f8f8;
+	border-bottom: 1px solid rgba(0,0,0,0.2);*/
+}
