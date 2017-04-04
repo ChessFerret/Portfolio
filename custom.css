@@ -18,6 +18,13 @@ body {
 	border: 1px solid black;
 	background-color: yellow;
 	padding: 0 5% 5% 5%;
+	width: 76%;
+}
+
+@media(max-width:768px){
+	.section {
+		width: 100%;
+	}
 }
 
 #content h2{
@@ -70,6 +77,10 @@ hr {
 
 #contactsList > li {
 	display: inline;
+}
+
+#contactsList i {
+	color: green;
 }
 
 
