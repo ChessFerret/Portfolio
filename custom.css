@@ -21,13 +21,17 @@ body {
 	width: 76%;
 }
 
+#preFooter {
+	padding: 0;
+}
+
 @media(max-width:768px){
 	.section {
 		width: 100%;
 	}
 }
 
-#content h2{
+h2{
 	/*font-size: 5em;*/
 	font-size: 2em;
 	font-weight: 700;
@@ -81,6 +85,7 @@ hr {
 
 #contactsList i {
 	color: green;
+	font-size: 2em;
 }
 
 
